@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> This is a random page</title>
+</head>
+<h1> Dank memes but random colors </h1>
+<script type="text/javascript">
+  function randomcolor() {
+    var colorval1 = Math.floor(Math.random() * 256);
+    var colorval2 = Math.floor(Math.random() * 256);
+    var colorval3 = Math.floor(Math.random() * 256);
+
+    var colors = "rgb(" + colorval1 + " " + colorval2 + " " + colorval3 + ")";
+    console.log(colors);
+    document.body.style.background = colors;
+  }
+  randomcolor()
+</script>
+</html>
