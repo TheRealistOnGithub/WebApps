@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>La Discotheque.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #939293;}
+.s1 { color: #ff6188;}
+.s2 { color: #fcfcfa;}
+.s3 { color: #fcfcfa;}
+.s4 { color: #78dce8; font-style: italic;}
+.s5 { color: #ffd866;}
+.s6 { color: #ff6188; font-style: italic;}
+.s7 { color: #ab9df2;}
+.s8 { color: #fcfcfa;}
+.s9 { color: #78dce8;}
+</style>
+</head>
+<body bgcolor="#2d2a2e">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+La Discotheque.html</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;</span><span class="s1">head</span><span class="s0">&gt;</span>
+    &lt;<span class="s1">title</span><span class="s0">&gt;</span><span class="s3">Now playing Daft Punk - Digital Love</span><span class="s0">&lt;/</span><span class="s1">title</span><span class="s0">&gt;</span>
+    &lt;<span class="s1">meta </span><span class="s4">http-equiv=</span><span class="s5">&quot;Content-Type&quot; </span><span class="s4">content=</span><span class="s5">&quot;text/html; charset=utf-8&quot;</span><span class="s0">&gt;</span>
+    &lt;<span class="s1">script</span><span class="s0">&gt;</span>
+        <span class="s6">function </span><span class="s2">discotheque</span><span class="s0">() {</span>
+            <span class="s6">var </span><span class="s2">colorval2 </span><span class="s1">= </span><span class="s2">Math</span><span class="s0">.</span><span class="s2">floor</span><span class="s0">(</span><span class="s2">Math</span><span class="s0">.</span><span class="s2">random</span><span class="s0">() </span><span class="s1">* </span><span class="s7">256</span><span class="s0">);</span>
+            <span class="s6">var </span><span class="s2">colorval3 </span><span class="s1">= </span><span class="s2">Math</span><span class="s0">.</span><span class="s2">floor</span><span class="s0">(</span><span class="s2">Math</span><span class="s0">.</span><span class="s2">random</span><span class="s0">() </span><span class="s1">* </span><span class="s7">256</span><span class="s0">);</span>
+
+            <span class="s6">var </span><span class="s2">colors </span><span class="s1">= </span><span class="s5">&quot;rgb(&quot; </span><span class="s1">+ </span><span class="s2">colorval1 </span><span class="s1">+ </span><span class="s5">&quot; &quot; </span><span class="s1">+ </span><span class="s2">colorval2 </span><span class="s1">+ </span><span class="s5">&quot; &quot; </span><span class="s1">+ </span><span class="s2">colorval3 </span><span class="s1">+ </span><span class="s5">&quot;)&quot;</span><span class="s0">;</span>
+            <span class="s2">console</span><span class="s0">.</span><span class="s2">log</span><span class="s0">(</span><span class="s2">colors</span><span class="s0">);</span>
+            <span class="s2">document</span><span class="s0">.</span><span class="s2">getElementsByTagName</span><span class="s0">(</span><span class="s5">'td'</span><span class="s0">).</span><span class="s2">style</span><span class="s0">.</span><span class="s2">background </span><span class="s1">= </span><span class="s2">colors</span><span class="s0">;</span>
+            <span class="s2">discotheque</span><span class="s0">(); </span>
+
+        }
+
+
+
+    &lt;/<span class="s1">script</span><span class="s0">&gt;</span>
+
+    &lt;<span class="s1">style </span><span class="s4">type=</span><span class="s5">&quot;text/css&quot;</span><span class="s0">&gt;</span>
+        <span class="s1">table</span><span class="s0">, </span><span class="s1">th</span><span class="s0">, </span><span class="s1">td </span><span class="s0">{</span>
+            <span class="s8">border</span><span class="s0">: </span><span class="s7">1</span><span class="s9">px solid black</span><span class="s0">;</span>
+            <span class="s8">border-collapse</span><span class="s0">: </span><span class="s9">collapse</span><span class="s0">;</span>
+        }
+
+        <span class="s1">th</span><span class="s0">, </span><span class="s1">td </span><span class="s0">{</span>
+            <span class="s8">padding</span><span class="s0">: </span><span class="s7">15</span><span class="s9">px</span><span class="s0">;</span>
+        }
+
+        <span class="s1">td </span><span class="s0">{</span>
+            <span class="s8">text-align</span><span class="s0">: </span><span class="s9">center</span><span class="s0">;</span>
+            <span class="s8">font-family</span><span class="s0">: </span><span class="s1">HelvLight</span><span class="s0">, </span><span class="s9">sans-serif</span><span class="s0">;</span>
+            <span class="s8">background-color</span><span class="s0">: </span><span class="s1">ladiscotheque</span><span class="s0">;</span>
+        }
+
+    &lt;/<span class="s1">style</span><span class="s0">&gt;</span>
+&lt;/<span class="s1">head</span><span class="s0">&gt;</span>
+&lt;<span class="s1">body</span><span class="s0">&gt;</span>
+&lt;<span class="s1">table</span><span class="s0">&gt;</span>
+    &lt;<span class="s1">tr</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">Last night I had a dream about you</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">In this dream I was dancing right beside you</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">And it looked like everyone was having fun</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">A kind of feeling I've been waiting so long</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+    &lt;/<span class="s1">tr</span><span class="s0">&gt;</span>
+    &lt;<span class="s1">tr</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">Dont stop, come a little closer</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">As we jam the rhythm gets stronger</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">There's nothing wrong with just a little little fun</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">We were dancing all night long</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+    &lt;/<span class="s1">tr</span><span class="s0">&gt;</span>
+    &lt;<span class="s1">tr</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">The time is right to put my arms around you</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">You're feeling right, you wrap arms around too</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">Suddenly, I feel the shining sun</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">Before I knew it, this dream was all gone</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+    &lt;/<span class="s1">tr</span><span class="s0">&gt;</span>
+    &lt;<span class="s1">tr</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">Ooh</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">I dont know what to do</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">About this dream and you</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">I wish this dream comes true</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+    &lt;/<span class="s1">tr</span><span class="s0">&gt;</span>
+    &lt;<span class="s1">tr</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td </span><span class="s4">1</span><span class="s0">&gt;</span><span class="s3">Ooh</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">I dont know what to do</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">About this dream and you</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+        &lt;<span class="s1">td</span><span class="s0">&gt;</span><span class="s3">We'll make this dream come true</span><span class="s0">&lt;/</span><span class="s1">td</span><span class="s0">&gt;</span>
+    &lt;/<span class="s1">tr</span><span class="s0">&gt;</span>
+&lt;/<span class="s1">table</span><span class="s0">&gt;</span>
+
+&lt;/<span class="s1">body</span><span class="s0">&gt;</span>
+</pre>
+</body>
+</html>

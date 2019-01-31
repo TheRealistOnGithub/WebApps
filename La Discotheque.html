@@ -2,15 +2,15 @@
     <title>Now playing Daft Punk - Digital Love</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <script>
-        function discotheque() {
-            var colorval2 = Math.floor(Math.random() * 256);
-            var colorval3 = Math.floor(Math.random() * 256);
 
-            var colors = "rgb(" + colorval1 + " " + colorval2 + " " + colorval3 + ")";
-            console.log(colors);
+        var cells = document.getElementsByTagName('td'),
+            colors = ['000000', 'FF0000', '00FF00', '0000FF', 'FFFF00', '00FFFF', 'FF00FF', 'C0C0C0'];
 
+        for (var i = 0; i < cells.length; i++) {
+            cells[i].style.backgroundColor = '#' + colors[Math.floor(Math.random() * colors.length)];
         }
 
+        }
 
 
     </script>
@@ -28,7 +28,7 @@
         td {
             text-align: center;
             font-family: HelvLight, sans-serif;
-            background-color: ladiscotheque;
+
         }
 
     </style>
@@ -60,7 +60,7 @@
         <td>I wish this dream comes true</td>
     </tr>
     <tr>
-        <td 1>Ooh</td>
+        <td>Ooh</td>
         <td>I dont know what to do</td>
         <td>About this dream and you</td>
         <td>We'll make this dream come true</td>
