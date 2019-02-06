@@ -1,15 +1,28 @@
 <head>
     <title>Now playing Daft Punk - Digital Love</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
     <script>
+        "use strict";
 
-        var cells = document.getElementsByTagName('td'),
-            colors = ['000000', 'FF0000', '00FF00', '0000FF', 'FFFF00', '00FFFF', 'FF00FF', 'C0C0C0'];
+        function discothequeControl(obj) {
+            let r = Math.floor(Math.random() * 256);
+            let g = Math.floor(Math.random() * 256);
+            let b = Math.floor(Math.random() * 256);
 
-        for (var i = 0; i < cells.length; i++) {
-            cells[i].style.backgroundColor = '#' + colors[Math.floor(Math.random() * colors.length)];
+            let color = "rgb(" + r + "," + g + "," + b + ")";
+            obj.style.background = color;
         }
 
+        function lightSwitch() {
+            let cells = document.body.getElementsByClassName("dank");
+            for (let x = 0; x < cells.length; x++) {
+                discothequeControl(cells[x]);
+            }
+        }
+
+        function update() {
+            setInterval(lightSwitch, 100);
         }
 
 
@@ -17,7 +30,7 @@
 
     <style type="text/css">
         table, th, td {
-            border: 1px solid black;
+            border: 1px solid white;
             border-collapse: collapse;
         }
 
@@ -31,39 +44,41 @@
 
         }
 
+
     </style>
 </head>
-<body>
+<body onload="update()">
 <table>
+
     <tr>
-        <td>Last night I had a dream about you</td>
-        <td>In this dream I was dancing right beside you</td>
-        <td>And it looked like everyone was having fun</td>
-        <td>A kind of feeling I've been waiting so long</td>
+        <td class="dank">Last night I had a dream about you</td>
+        <td class="dank">In this dream I was dancing right beside you</td>
+        <td class="dank">And it looked like everyone was having fun</td>
+        <td class="dank">A kind of feeling I've been waiting so long</td>
     </tr>
     <tr>
-        <td>Dont stop, come a little closer</td>
-        <td>As we jam the rhythm gets stronger</td>
-        <td>There's nothing wrong with just a little little fun</td>
-        <td>We were dancing all night long</td>
+        <td class="dank">Dont stop, come a little closer</td>
+        <td class="dank">As we jam the rhythm gets stronger</td>
+        <td class="dank">There's nothing wrong with just a little little fun</td>
+        <td class="dank">We were dancing all night long</td>
     </tr>
     <tr>
-        <td>The time is right to put my arms around you</td>
-        <td>You're feeling right, you wrap arms around too</td>
-        <td>Suddenly, I feel the shining sun</td>
-        <td>Before I knew it, this dream was all gone</td>
+        <td class="dank">The time is right to put my arms around you</td>
+        <td class="dank">You're feeling right, you wrap arms around too</td>
+        <td class="dank">Suddenly, I feel the shining sun</td>
+        <td class="dank">Before I knew it, this dream was all gone</td>
     </tr>
     <tr>
-        <td>Ooh</td>
-        <td>I dont know what to do</td>
-        <td>About this dream and you</td>
-        <td>I wish this dream comes true</td>
+        <td class="dank">Ooh</td>
+        <td class="dank">I dont know what to do</td>
+        <td class="dank">About this dream and you</td>
+        <td class="dank">I wish this dream comes true</td>
     </tr>
     <tr>
-        <td>Ooh</td>
-        <td>I dont know what to do</td>
-        <td>About this dream and you</td>
-        <td>We'll make this dream come true</td>
+        <td class="dank">Ooh</td>
+        <td class="dank">I dont know what to do</td>
+        <td class="dank">About this dream and you</td>
+        <td class="dank">We'll make this dream come true</td>
     </tr>
 </table>
 

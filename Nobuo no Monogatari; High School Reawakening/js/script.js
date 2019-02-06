@@ -59,6 +59,7 @@ const images = {};
 const scenes = {
     "bedroom": "bedroom_day.jpg",
     "kitchen": "kitchen.png",
+    "morning_class": "classroom_day.png",
 
 };
 
@@ -78,7 +79,11 @@ const characters = {
     "dj": {
         "Name": "Announcer",
         "Color": "#ffffff"
-    }
+    },
+    "i": {
+        "Name": "Ichiyo",
+        "Color": "#a0e7ff",
+    },
 };
 
 let script;
@@ -124,6 +129,13 @@ script = {
         "I whip out my vape and pretend to go get something behind him and take a fat hit.",
         "play sound vape",
         "r Ahh, what the hell man? I'm going to get lung cancer and die because of you!!!",
+
+        "scene morning_class with fadeIn",
+        "I run to class with barely two minutes to spare, thank goodness for being the track team for all these years.",
+        "My best friend Ichiyo is dreaming about something, I'm willing to bet 300 yen that he is daydreaming about his longtime crush Nahoko",
+        "That bastard was rejected on 4 different occaisons but he's still yet to give up and move on.",
+        "wait 500",
+        "Godspeed Ichiyo.",
 
 
     ],
