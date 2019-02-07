@@ -46,7 +46,7 @@ const sound = {
     "cleaning": "pants wipe.mp3",
     "thud": "hand hitting table.mp3",
     "downstairs": "running downstairs.mp3",
-    "vape": "juul hit.wav",
+    "vape": "juul.wav",
 };
 
 // Define the videos used in the game.
@@ -59,7 +59,6 @@ const images = {};
 const scenes = {
     "bedroom": "bedroom_day.jpg",
     "kitchen": "kitchen.png",
-    "morning_class": "classroom_day.png",
 
 };
 
@@ -79,11 +78,7 @@ const characters = {
     "dj": {
         "Name": "Announcer",
         "Color": "#ffffff"
-    },
-    "i": {
-        "Name": "Ichiyo",
-        "Color": "#a0e7ff",
-    },
+    }
 };
 
 let script;
@@ -117,10 +112,10 @@ script = {
         "I get up and get changed into my uniform while tousling my hair.",
         "play sound hanger",
         "Not that it matters anyways, every delinquent has their hair styled the same way, haphazardly cut with tufts sticking out and angled in any direction that they see fit.",
-        "play sound downstairs",
         "I would change up my cut, but combs are for the gays and you can miss me with that gay shit.",
         "scene kitchen with fadeIn",
-        "I head downstairs to go grab a piece of bread or two but my brother is eating the last slice of bread with some Nutella",
+        "play sound downstairs",
+        "I head downstairs to go grab a piece of bread or two but my brother is eating the last slice of bread with some Nutella.",
         "n Way to go man, totally didnt want that last piece of toast or anything.",
         "show r Normal",
         "r You snooze you lose, I guess.",
@@ -129,13 +124,8 @@ script = {
         "I whip out my vape and pretend to go get something behind him and take a fat hit.",
         "play sound vape",
         "r Ahh, what the hell man? I'm going to get lung cancer and die because of you!!!",
-
-        "scene morning_class with fadeIn",
-        "I run to class with barely two minutes to spare, thank goodness for being the track team for all these years.",
-        "My best friend Ichiyo is dreaming about something, I'm willing to bet 300 yen that he is daydreaming about his longtime crush Nahoko",
-        "That bastard was rejected on 4 different occaisons but he's still yet to give up and move on.",
-        "wait 500",
-        "Godspeed Ichiyo.",
+        "n That's what you get for being a dick 99% of the time whenever I talk to you.",
+        "Believe it or not I'm actually caring and kind brother.",
 
 
     ],
