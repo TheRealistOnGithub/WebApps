@@ -59,6 +59,8 @@ const images = {};
 const scenes = {
     "bedroom": "bedroom_day.jpg",
     "kitchen": "kitchen.png",
+    "classroom_day": "classroom_day.jpg",
+
 
 };
 
@@ -78,6 +80,10 @@ const characters = {
     "dj": {
         "Name": "Announcer",
         "Color": "#ffffff"
+    },
+    "k": {
+        "Name": "Kenzo",
+        "Color": "#a0e7ff",
     }
 };
 
@@ -125,7 +131,17 @@ script = {
         "play sound vape",
         "r Ahh, what the hell man? I'm going to get lung cancer and die because of you!!!",
         "n That's what you get for being a dick 99% of the time whenever I talk to you.",
-        "Believe it or not I'm actually caring and kind brother.",
+        "Believe it or not I'm actually kind and caring brother.",
+        "n Shit, I'm gonna be late for class if I don't get going soon!",
+        "r Hey, aren't you gonna get something to eat first?",
+        "n Nah, I have my vape, I dont need anything till lunch! See you later Ritsu!",
+        "scene classroom_day with fadeIn",
+        "I run to class with barely two minutes to spare, thank goodness for being on the track team for all these years or I definitely would have been late.",
+        "My best friend Kenzo is daydreaming at his desk, and I sneak up behind him and I whisper in his ear 'Of course I'll go on a date with you Kenzo, you are the only one for me!' ",
+        "k Mmm..... Oh Otaku-chan, I can't wait for our date tommorrow!",
+        "I shake him awake, interrupting his slumber. Forgive me Kenzo, this dream was getting too weird for me.",
+        "n Oi Sleepy Beauty, wake up, class is going to start soon.",
+        "k Hey fuck you man,"
 
 
     ],
