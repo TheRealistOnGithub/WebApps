@@ -61,7 +61,7 @@ const scenes = {
     "bedroom": "bedroom_day.jpg",
     "kitchen": "kitchen.png",
     "classroom_day": "classroom_day.jpg",
-
+    "chapter_zero": "ch0.png",
 
 };
 
@@ -176,10 +176,10 @@ script = {
         "Im too dumb founded to respond to Kenzo and his tempermental heart. Wataru gives me a major case of deja-vu but I haven't the slightest idea of where I have seen him before.",
         "He takes the seat next to me and starts fidgeting, almost like he is going through a nicotine withdrawal.",
         "n Hey you look like...",
-        "h I swear to Christ that if you say that I look like a woman, Im going to kick that smug look off of your face.",
+        "h I swear to Christ that if you say that I look like a woman, I'm going to kick that smug look off of your face.",
         "n What, no? I was going to offer you a hit, because you look like you are shaking really badly. And for the record, I think you do look like a girl regardless of what anyone else thinks.",
         "He hesitates and reaches out for a second, but then pulls his hand close to him again.",
-        "h Sorry, I'm trying to quit vaping, it's terrible for your body and I dont want to end up like the woman on the TV.",
+        "h Sorry I'm gonna pass on that offer, I'm trying to quit vaping, it's terrible for your body and I dont want to end up like the woman on the TV.",
         "h Hey where are you staring off to? I'd tell you my eyes are up here, but if you got a thing for pecs then I have news for you!",
         "I'm too busy blankly staring at the faint scar on his wrist that's barely hidden by the jacket sleeve to notice Wataru's remarks. This sets off a fresh wave of deja-vu and I can't help but satisfy my curiosity.",
         "n Hey, this is going to come off super rude, but how did you get that scar?",
@@ -190,6 +190,8 @@ script = {
         "A limp body on the cracked windshield.",
         "I've seen Wataru before and he shouldn't be in this classroom.",
         "He shouldn't be in any school for that matter, since Wataru Hibiki was pronounced dead in a automotive accident ten years ago on this date.",
+        "scene chapter_zero with fadeIn",
+        "wait 5000",
         "end",
 
 

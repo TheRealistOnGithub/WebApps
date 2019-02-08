@@ -19,7 +19,8 @@
 
 /* General Style */
 body {
-
+    background-image: url("https://lh3.googleusercontent.com/25CkGSiVyBIENomuOv0a0DVFBf61obSibsyhZnT6js1vn6AolcOCDCz50LvEI7VrYeBvZMfVN6_dt3Qg4s3ca3tkjfsRzEQPbXDV0oOiedCnceDU087SeGndoy3-ZOS_Ba-61uJSpYedg7NLDJx5OhKhQfbCBYMg-65GKFGGvqinpRaP7CX_Yqxdffio1bhVzulf5fEJOl_ioUF-9wLdaz7hnPArCfSEBVjbZq_le36VYi2vnqEWBod4YL_Uy_eNeAxpdxzB38ltN9X54VXvj0NVmJtHq_fArUdFgY3szepzWxBxrHA9FPatTx7J6_dCd3wcUoaUGnJ9tYJdoE_Jk3HtvmjY84yQLO32Pg7p8_dgh4xT8JU0vC25MG_VAUdA91pXoe7j0VOkD_lqo1CNU2EMMsAbvpMPwAVODiWsUeqtAFQVBNhYMAlqw3r1V2yzfCof1y3cr1cQ7UwMmKjdhj0OIKVF9KryQdMn-vS-LgiRL_cyzPvkXoDJecpVmzJkTh0rEaHDHzvFymTWgSkL8bdJyi6cQG87gCv__0aOIIQgbREs2eEH6VxMvNddGTc_4_pKzYAQ5kk_W0KT3XUjZGdxH3GjEl7skdar75E3W_BDM0dgAsBO9Oiazn6FK_Hv-4GU5tt8QR-8zG04Z3kHvchQR9yARm0=w1471-h827-no");
+    background-color: black;
 }
 
 /* Simple Button styles*/
@@ -151,18 +152,18 @@ button:hover {
 /* Styles for the desktop version of the Quick Menu*/
 @media screen and (min-width: 37.56255em) {
 
-	/* Quick Menu Style */
-	[data-ui="quick-menu"] {
+    /* Quick Menu Style */
+    [data-ui="quick-menu"] {
 
-	}
+    }
 
-	/* Quick Menu Buttons Style */
-	[data-ui="quick-menu"] span {
+    /* Quick Menu Buttons Style */
+    [data-ui="quick-menu"] span {
 
-	}
+    }
 
-	/* Quick Menu Buttons Style on Hover */
-	[data-ui="quick-menu"] span:hover {
+    /* Quick Menu Buttons Style on Hover */
+    [data-ui="quick-menu"] span:hover {
 
-	}
+    }
 }
