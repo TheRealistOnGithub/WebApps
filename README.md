@@ -1,2 +1,2 @@
 # WebApps 
-I shot Notepad++, we using Webstorm now
+Hello, I'm just a guy tryna do a thing.
