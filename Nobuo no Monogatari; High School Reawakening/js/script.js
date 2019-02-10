@@ -72,6 +72,8 @@ const characters = {
         "Color": "#a0e7ff",
         "Images": {
             "Normal": "Ritsu.png",
+            "Kenzo": "Kenzo.jpg",
+            "Hibiki": "Hibiki.jpg",
         }
     },
     "n": {
@@ -82,16 +84,13 @@ const characters = {
         "Name": "Kenzo",
         "Color": "#a0e7ff",
         "Images": {
-            "Normal": "Kenzo.png",
+            "Normal": "Kenzo.jpg",
         }
 
     },
     "h": {
         "Name": "Hibiki",
         "Color": "#ffaada",
-        "Images": {
-            "Normal": "Hibiki.png",
-        }
 
     },
     "dj": {
@@ -153,6 +152,7 @@ script = {
         "n Shit, I'm gonna be late for class if I don't get going soon!",
         "r Hey, aren't you gonna get something to eat first?",
         "n Nah, I have my vape, I dont need anything till lunch! See you later Ritsu!",
+        "hide character r",
         "play music Theme2 loop",
         "scene classroom_day with fadeInDown",
         "I run to class with barely two minutes to spare, thank goodness for being on the track team for all these years or I definitely would have been late.",
@@ -162,13 +162,13 @@ script = {
         "k Mmmmm.... Oh Dori-chan, I can't wait for our date tommorrow!",
         "I shake him awake, interrupting his slumber. Forgive me Kenzo, this dream was getting too weird for me.",
         "n Oi Sleepy Beauty, wake up, class is going to start soon.",
-        "show character k Normal with fadeIn",
+        "show character r Kenzo with fadeIn",
         "k Hey screw you man, I was enjoying precious beauty rest back there.",
         "n Oh yeah? If I left you for any longer, you would have had a big wet spot in between your legs.",
         "k Seriously Nobuo, piss off. Sometimes I wonder why I'm even friends with you sometimes.",
-        "hide character k with fadeOut",
-        "sensei Ok everyone settle down, and be quiet for a bit, alright? Today we got a new transfer student, although I'm not sure why the fuck she is here in the middle of the school year but fuck it, her name is Wataru Hibiki.",
-        "show character h Normal with fadeInRight",
+        "hide character r",
+        "sensei Ok everyone settle down, and be quiet for a bit, alright? Today we got a new transfer student, although I'm not sure why the fuck she is here near the end of the school year but fuck it, her name is Wataru Hibiki.",
+        "show character r Hibiki with fadeInRight",
         "h Hello everyone, My name is Wataru Hibiki and yes I'm a boy regardless what color my name is. I will run up on anyone who tries to tell me otherwise, so don't screw with me and we'll all get along fine.",
         "k Oi, Nobuo, what do you think about that transfer, she seems kind of mental but also kind of cute. I think im going to end up confessing to her four weeks from now, my heart's already set on her!",
         "k Oi, Nobuo, you there?",
